@@ -2,6 +2,9 @@ use std::fs::read_to_string;
 
 use tokei::{Config, Languages};
 
+const BANANA_LENGTH: f32 = 177.8;
+const LINE_HEIGHT: f32 = 4.212;
+
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let paths = &["."];
 
@@ -27,6 +30,9 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         .map(|(_type, language)| language.code)
         .sum();
 
-    println!("Your code is {} 🍌 for scale", count);
+    println!(
+        "Your code is {} 🍌 for scale",
+        ((count as f32) * LINE_HEIGHT / BANANA_LENGTH)
+    );
     Ok(())
 }
