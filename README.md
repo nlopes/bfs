@@ -2,7 +2,7 @@
 
 Taking in the spirit of the Banana For Scale meme, we count lines of code in bananas.
 
-# Example
+## Example
 ![Bananas For Scale](./bananas_for_scale.png)
 
 ## Assumptions
