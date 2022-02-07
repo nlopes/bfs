@@ -4,7 +4,6 @@ Taking in the spirit of the Banana For Scale meme, we count lines of code in ban
 
 # Example
 ![Bananas For Scale](./bananas_for_scale.png)
-<img src="./bananas_for_scale.png">
 
 ## Assumptions
 
