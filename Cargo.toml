@@ -1,0 +1,9 @@
+[package]
+name = "bfs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Norberto Lopes <nlopesml@gmail.com>"]
+
+[dependencies]
+clap = "3.0"
+tokei = "12.1"
